@@ -42,7 +42,6 @@ Tell the user the number of stops AND the stops IN ORDER that they will pass thr
 // then take those two numbers and put them in route function
 // this will print out the stops between those two places
 
-
 var subway = {
 	N: ['Times Square', '34th', '28th', '23rd', 'Union Square', '8th'],
 	L: ['8th', '6th', 'Union Square', '3rd', '1st'],
