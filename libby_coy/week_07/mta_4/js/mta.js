@@ -42,13 +42,12 @@ $('#findroute').on('click', function () {
   var endLine = y.substring(0, 1);
   var endStation = y.substring(3);
 
-  // var startLine = $('#start').val();
-  // var startStation = $('#end').val();
-  // var endLine = $('#secondStart').val();
-  // var endStation = $('#secondEnd').val();
-
   planTrip(startLine, startStation, endLine, endStation);
 
+});
+
+$('#restart').on('click', function () {
+  $('#output').empty();
 });
 
 });
