@@ -14,20 +14,65 @@
 <body>
 
   <h2>Start Line</h2>
-  <form method="get">
+
+<div class="first">
+  <select>
+    <option value="N: Times Square">N: Times Square</option>
+    <option value="N: 34th">N: 34th</option>
+    <option value="N: 28th">N: 28th</option>
+    <option value="N: 23rd">N: 23rd</option>
+    <option value="N: Union Square">N: Union Square</option>
+    <option value="N: 8th">N: 8th</option>
+
+    <option value="L: 8th">L: 8th</option>
+    <option value="L: 6th">L: 6th</option>
+    <option value="L: Union Square">L: Union Square</option>
+    <option value="L: 3rd">L: 3rd</option>
+    <option value="L: 1st">L: 1st</option>
+
+    <option value="6: Grand Central">6: Times Square</option>
+    <option value="6: 33rd">6: 33rd</option>
+    <option value="6: 28th">6: 28th</option>
+    <option value="6: 23rd">6: 23rd</option>
+    <option value="6: Union Square">6: Union Square</option>
+    <option value="6: Astor Place">6: Astor Place</option>
+  </select>
+</div>
+
+  <!-- <form method="get">
   Start: <input type="text" name="fname" id="start"><br>
-  End: <input type="text" name="lname" id="end"><br>
+  End: <input type="text" name="lname" id="end"><br> -->
 
   <h2>End Line</h2>
-  Start: <input type="text" name="fname" id="secondStart"><br>
-  End: <input type="text" name="lname" id="secondEnd"><br>
+
+  <div class="second">
+  <select id="#start">
+    <option value="N: Times Square">N: Times Square</option>
+    <option value="N: 34th">N: 34th</option>
+    <option value="N: 28th">N: 28th</option>
+    <option value="N: 23rd">N: 23rd</option>
+    <option value="N: Union Square">N: Union Square</option>
+    <option value="N: 8th">N: 8th</option>
+
+    <option value="L: 8th">L: 8th</option>
+    <option value="L: 6th">L: 6th</option>
+    <option value="L: Union Square">L: Union Square</option>
+    <option value="L: 3rd">L: 3rd</option>
+    <option value="L: 1st">L: 1st</option>
+
+    <option value="6: Grand Central">6: Times Square</option>
+    <option value="6: 33rd">6: 33rd</option>
+    <option value="6: 28th">6: 28th</option>
+    <option value="6: 23rd">6: 23rd</option>
+    <option value="6: Union Square">6: Union Square</option>
+    <option value="6: Astor Place">6: Astor Place</option>
+  </select>
+  </div>
+
+  <!-- Start: <input type="text" name="fname" id="secondStart"><br>
+  End: <input type="text" name="lname" id="secondEnd"><br> -->
   <input type="button" id="findroute" value="Find route">
-  </form>
-
-  <!-- <h2>Start line: <span id="startLine" class="grey"></span> Start stop name: <span id="startStop" class="grey"></span></h2>
-
-  <h2>End line: <span id="endLine" class="grey"></span> End stop name: <span id="endStop" class="grey"></span></h2> -->
-
+  <!-- </form> -->
 
 
   <div id="output"></div>

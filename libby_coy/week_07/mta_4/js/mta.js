@@ -29,14 +29,23 @@ var planTrip = function(startLine, startStation, endLine, endStation) {
 	}
 };
 
+
 $(document).ready(function () {
 
 $('#findroute').on('click', function () {
 
-  var startLine = $('#start').val();
-  var startStation = $('#end').val();
-  var endLine = $('#secondStart').val();
-  var endStation = $('#secondEnd').val();
+  var x = $('.first select').val();
+  var y = $('.second select').val();
+
+  var startLine = x.substring(0, 1);
+  var startStation = x.substring(3);
+  var endLine = y.substring(0, 1);
+  var endStation = y.substring(3);
+
+  // var startLine = $('#start').val();
+  // var startStation = $('#end').val();
+  // var endLine = $('#secondStart').val();
+  // var endStation = $('#secondEnd').val();
 
   planTrip(startLine, startStation, endLine, endStation);
 
